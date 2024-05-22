@@ -7,13 +7,13 @@ AutoTokenizer.from_pretrained
 AutoModelForCausalLM.from_pretrained
 model.stream_chat
 ```
-![alt text](images/hw2_1.png)
+![alt text](images/hw2-1.png)
 
 - **部署实战营优秀作品 `八戒-Chat-1.8B` 模型**
 
-![alt text](images/hw2_2.png)
+![alt text](images/hw2-2.png)
 
-![alt text](images/hw2_3.png)
+![alt text](images/hw2-3.png)
 
 - **通过 `InternLM2-Chat-7B` 运行 `Lagent` 智能体 `Demo`**
 
