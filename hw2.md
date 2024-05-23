@@ -29,6 +29,7 @@ model.stream_chat
 ```
 
 - **通过 `InternLM2-Chat-7B` 运行 `Lagent` 智能体 `Demo`**
+
 ![alt text](images/hw4-1.png)
 
 核心代码如下：
