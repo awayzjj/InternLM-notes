@@ -60,3 +60,25 @@ model.stream_chat
 ```
 
 - **实践部署 `浦语·灵笔2` 模型**
+图文创作结果如下：
+```python
+cd /root/demo/InternLM-XComposer
+python /root/demo/InternLM-XComposer/examples/gradio_demo_composition.py  \
+--code_path /root/models/internlm-xcomposer2-7b \
+--private \
+--num_gpus 1 \
+--port 6006
+```
+![alt text](images/hw2-4.png)
+视觉问答（）结果如下：
+```python
+conda activate demo
+
+cd /root/demo/InternLM-XComposer
+python /root/demo/InternLM-XComposer/examples/gradio_demo_chat.py  \
+--code_path /root/models/internlm-xcomposer2-vl-7b \
+--private \
+--num_gpus 1 \
+--port 6006
+```
+![alt text](images/hw2-5.png)
