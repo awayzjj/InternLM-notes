@@ -82,3 +82,6 @@ python /root/demo/InternLM-XComposer/examples/gradio_demo_chat.py  \
 --port 6006
 ```
 ![alt text](images/hw2-5.png)
+
+- **书生·浦语 1 处表现不佳的案例**
+  ![alt text](images/hw2-6.png)
